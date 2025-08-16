@@ -1,6 +1,6 @@
 # Threat Hunting, DFIR & Security Operations
 
-Welcome to Sighurity! We are focused on key areas of modern cybersecurity:
+Welcome to Singhurity! We are focused on key areas of modern cybersecurity:
 
 - **Threat Hunting** – methodologies, frameworks, and tooling to proactively detect advanced threats.
 - **Digital Forensics & Incident Response (DFIR)** – practical techniques and processes for analyzing and responding to security incidents.
