@@ -1,0 +1,60 @@
+/* --- Navbar Base Styles --- */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 8px 15px;
+  display: inline-block;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.navbar-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* --- Responsive Menu --- */
+@media (max-width: 600px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-links a {
+    margin: 10px 0;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+}
